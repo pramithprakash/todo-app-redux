@@ -1,0 +1,30 @@
+#root {
+    width: 500px;
+    margin: 0 auto;
+}
+input[type=text]{
+    width: calc( 100% - 110px );
+    float: left;
+}
+input[type=submit]{
+    width: 100px;
+    float: right;
+}
+.list-group {
+    clear: both;
+    padding-top: 12px;
+}
+.list-group li a{
+    float: right;
+    color: red !important;
+    cursor: pointer;
+}
+.list-group li input[type=checkbox]{
+    margin-right: 10px;
+}
+label {
+    margin-bottom: 0;
+}
+.completed label{
+    text-decoration: line-through;
+}
